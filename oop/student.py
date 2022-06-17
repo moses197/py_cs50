@@ -6,12 +6,12 @@ class Student:
     def __str__(self) -> str:
         return f"{self.name} from {self.house}"
     
-    #setter
+    #getter
     @property
     def name(self):
         return self._name 
     
-    #getter    
+    #setter    
     @name.setter
     def name(self, name):
         if not name:
